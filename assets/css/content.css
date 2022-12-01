@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.main .nav_slide_2{
+    width: 20%;
+}
+.main .main-right{
+    width: 80%;
+}

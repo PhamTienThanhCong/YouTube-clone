@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/c71231073e.js" crossorigin="anonymous"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/content.css">
 </head>
 <body>
     <!-- start header -->
@@ -35,22 +36,40 @@
                     <form action="/" method="get">
                         <input id="search-input" type="text" name="search" placeholder="Tìm kiếm">
                         <i class="fa-solid fa-keyboard"></i>
-                        <button class="btn-search">
-                            <i class="fa-solid fa-search"></i>
-                        </button>
+                        <div class="search">
+                            <button class="btn-search">
+                                <i class="fa-solid fa-search"></i>
+                            </button>
+                            <div class="item-search">
+                                <span>Tìm kiếm</span>
+                            </div>
+                        </div>
                     </form>
                 </div>
-                <button class="btn-microphone">
-                    <i class="fa-solid fa-microphone"></i>
-                </button>
+                <div class="micro">
+                    <button class="btn-microphone">
+                        <i class="fa-solid fa-microphone"></i>
+                    </button>
+                    <div class="item-micro">
+                        <span>Tìm kiếm bằng giọng nói</span>
+                    </div>
+                </div>
             </div>
             <div class="header_right">
                 <div class="list-btn">
                     <div class="header_right_icon">
-                        <i class="bx bx-video-plus"></i>
+                        <div class="sub-right-icon">
+                            <i class="bx bx-video-plus"></i>
+                        </div>
+                        <div class="sub-video-plus">
+                            <span>Tạo</span>
+                        </div>
                     </div>
                     <div class="header_right_icon">
                         <i class="bx bx-bell"></i>
+                        <div class="item-infor">
+                            <span>Thông báo</span>
+                        </div>
                     </div>
                     <div class="header_right_avatar">
                         <img class="img-avatar" src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2022/05/cat-1652877250.jpg" alt="">
@@ -62,7 +81,8 @@
     <!-- end header -->
 
     <!-- start slide -->
-    <div class="nav_slide_2">
+    <div class="main">
+        <div class="nav_slide_2">
         <ul>
             <a href="/">
                 <li class="nav_slide_option nav_slide_option-active">
@@ -193,10 +213,11 @@
             </a>
 
         </ul>
+        </div>
+        <div class="main-right">
+            
+        </div>
     </div>
-
-
-
     <!-- end slide -->
 
 
