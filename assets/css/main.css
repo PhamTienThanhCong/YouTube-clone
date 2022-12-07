@@ -262,14 +262,18 @@ header{
 }
 
 .nav_slide_2{
+    margin-top: 56px;
     padding: 12px;  
     top: 56px;
     height: calc(100vh - 56px);
     overflow-y: scroll;
 }
 /* hidden scoll */
-::-webkit-scrollbar {
-    display: none;
+.nav_slide_2::-webkit-scrollbar {
+    /* display: none; */
+    width: 10px;
+
+
 }
 .nav_slide_2{
     position: fixed;
@@ -279,9 +283,9 @@ header{
     padding: 20px;
     min-height: 100vh;
     background-color: rgb(250, 250, 250);
-    box-shadow: 2px 0 4px rgb(76, 76, 76);
+    /* box-shadow: 2px 0 4px rgb(76, 76, 76); */
     z-index: 1;
-    transition: 0.3s;
+    /* transition: 0.3s; */
 }
 .nav_slide_2.open{
     left: 0;
@@ -291,6 +295,7 @@ header{
     justify-content: space-around;
     align-items: center;
     margin-top: -20px;
+    display: none;
 }
 .sub-nav_slide_2 .select-menu{
     font-size: 20px;
