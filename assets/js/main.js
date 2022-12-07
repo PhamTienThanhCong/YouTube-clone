@@ -1,4 +1,6 @@
+// import Splide from '@splidejs/splide';
 let focus_search = document.getElementById('search-input')
+
 
 focus_search.addEventListener('focus', function(){
     document.getElementsByClassName('icon-search-hidden')[0].style.display = 'block';
@@ -26,3 +28,4 @@ navMenu.onclick = () => {showMenu.classList.toggle('open')
 miniMenu.classList.toggle('open')
 }
 // showMenu.classList.toggle('open')
+

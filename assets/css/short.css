@@ -22,7 +22,7 @@ a{
 .S-box{
     width: 300px;
     height: 600px;
-    margin: 0 30%;
+    margin: 20px 35%;
     display: flex;
     justify-content: center;
     align-items: center;
