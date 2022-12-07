@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* html{
+    background-color: rgba(25, 25, 25, 0.8);
+} */
+/* home-container */
+.home-container{   
+    height: 180px;
+    background-color: #f0b75a;
+}
+.home-container .tabbed-header{
+    margin:auto 0 auto;
+    text-align: center;
+}
+.home-container .tabbed-header img{
+    width: 160px;
+}
+.home-container .tabbed-header #owner{
+    color: #fff;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+/* tabbed-body */
+.home-container .tabbed-body{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.home-container .tabbed-body img{
+    width: 90px;
+    border-radius: 50px;
+}
+.tabbed-body .admin{
+    display: flex;
+}
+.tabbed-body .account-name{
+    margin-left: 30px;
+}
+.tabbed-body .account-name p{
+    font-size: 22px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tabbed-body .account-name .account-infor{
+    line-height: 25px;
+    color: rgb(119, 117, 117);
+    font-size: 14px;
+}
+
+.tabbed-body .btn-login button{
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    background-color: #000;
+    border-radius: 20px;
+    font-size: 15.5px;
+}
+/* nav-tabbed-body */
+.tabbed-content {
+    margin: 0 50px;
+}
+.tabbed-content .nav-tabbed-body{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    color: #616161;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(186, 185, 185);
+}
+.tabbed-content .nav-tabbed-body li{
+    padding-bottom: 10px;
+}
+.tabbed-content .nav-tabbed-body li:hover{
+    border-bottom: 2px  solid #000;
+    color: #000;
+}
+/* video-player */
+.tabbed-content .video-player{
+    margin-top: 50px;
+    display: flex;
+    border-bottom: 1.2px solid #ccc;
+}
+.video-player .item-video iframe {
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.video-player .content-video{
+    margin-left: 40px;
+    font-size: 14px;
+    /* font-weight: 600; */
+}
+/* playlist-hot-tiktok */
+.playlist-hot-tiktok{
+    margin-top: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.playlist-hot-tiktok .title-playlist{
+    display: flex;
+    align-items: center;
+}
+.playlist-hot-tiktok .title-playlist button{
+    margin-left: 50px; 
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #d7d5d5;
+    font-weight: 600;
+}
+.playlist-hot-tiktok .title-playlist button:hover{
+    background-color: #b8b8b8;
+}
+/* sub-playlist-music */
+.sub-playlist-music{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 20px;
+    gap:5px;
+}
+.sub-playlist-music .item-music{
+    width: 200px;
+    height: 250px;
+}
+.sub-playlist-music .item-music img{
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    z-index: -1;
+}
+.sub-playlist-music .item-music #time{
+    display: block;
+    position: absolute;
+    margin: -25px 155px;
+    background-color: rgb(78, 77, 77);
+    padding: 1px 3px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    z-index: -1;
+}
+.sub-playlist-music .video-title{
+    font-size: 15px;
+    margin-top: 8px;
+}
+.sub-playlist-music .video-title span{
+    display: block;
+    font-size: 14px;
+}
