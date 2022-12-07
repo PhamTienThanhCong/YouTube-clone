@@ -19,15 +19,22 @@ body {
     margin-top: 80px;
 }
 /* nav-select */
+.nav-main{
+    width: 99%;
+    margin-top: 80px;
+}
 .nav-select{
-    display: flex;
-    width: 90px; 
-    padding: 0 5px;
+    display: grid;
+    grid-template-columns:0.05fr 1fr;
 }
 .nav-select .nav-left{
-    margin-top: 80px;
-    display:block;
-    text-align: center; 
+    width: 80px; 
+    height: 270px;
+    display: block;
+}
+.nav-left .item-nav-home{
+    padding: 0 5px; 
+    text-align: center;
 }
 .nav-select .nav-left .fa-house{
     font-size: 18px;
@@ -60,7 +67,6 @@ body {
     margin-left: 10px;
     margin-bottom: 35px;
     background-color: #fff;
-    position: f;
 }
 .main-content .tab-list li{
     list-style: none;
@@ -131,3 +137,4 @@ body {
     line-height: 20px;
     font-size: 14px;
 }
+
