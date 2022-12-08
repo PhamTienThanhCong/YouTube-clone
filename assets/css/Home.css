@@ -12,6 +12,9 @@
 /* home-container */
 .home-container{   
     height: 180px;
+    margin-left: 80px;
+    margin-right: 15px;
+    margin-top: -290px;
     background-color: #f0b75a;
 }
 .home-container .tabbed-header{
