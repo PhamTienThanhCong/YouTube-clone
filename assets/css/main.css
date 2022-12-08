@@ -272,8 +272,6 @@ header{
 .nav_slide_2::-webkit-scrollbar {
     /* display: none; */
     width: 10px;
-
-
 }
 .nav_slide_2{
     position: fixed;

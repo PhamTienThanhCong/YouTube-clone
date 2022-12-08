@@ -12,6 +12,9 @@
 /* home-container */
 .home-container{   
     height: 180px;
+    margin-left: 80px;
+    margin-right: 15px;
+    margin-top: -290px;
     background-color: #f0b75a;
 }
 .home-container .tabbed-header{
@@ -35,6 +38,7 @@
 }
 .home-container .tabbed-body img{
     width: 90px;
+    height: 90px;
     border-radius: 50px;
 }
 .tabbed-body .admin{
@@ -65,8 +69,10 @@
 /* nav-tabbed-body */
 .tabbed-content {
     margin: 0 50px;
+    display: block;
 }
 .tabbed-content .nav-tabbed-body{
+    margin: 0 60px;
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
@@ -98,16 +104,16 @@
     font-size: 14px;
     /* font-weight: 600; */
 }
-/* playlist-hot-tiktok */
 .playlist-hot-tiktok{
     margin-top: 30px;
     border-bottom: 1px solid #ccc;
 }
-.playlist-hot-tiktok .title-playlist{
+.title-playlist{
     display: flex;
     align-items: center;
+    margin-top: 30px;
 }
-.playlist-hot-tiktok .title-playlist button{
+.title-playlist button{
     margin-left: 50px; 
     padding: 10px 25px;
     border-radius: 20px;
@@ -115,7 +121,7 @@
     background-color: #d7d5d5;
     font-weight: 600;
 }
-.playlist-hot-tiktok .title-playlist button:hover{
+.title-playlist button:hover{
     background-color: #b8b8b8;
 }
 /* sub-playlist-music */
@@ -126,14 +132,15 @@
     gap:5px;
 }
 .sub-playlist-music .item-music{
-    width: 200px;
-    height: 250px;
+    height:100%;
 }
 .sub-playlist-music .item-music img{
+    width: 200px;
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     border-radius: 10px;
     z-index: -1;
+    width: 200px;
 }
 .sub-playlist-music .item-music #time{
     display: block;
