@@ -380,7 +380,6 @@ header{
 }
 /* content-home */
 .content-home{
-    position: relative;
     flex-direction: column;
     margin: 100px;
     z-index: -1;
