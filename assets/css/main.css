@@ -358,3 +358,103 @@ header{
 .nav_slide_box_icon{
     font-size: 24px !important;
 }
+/* nav-left */
+.nav-left{
+    position: absolute;
+    width: 80px;
+    height: 400px;
+    z-index: -1;
+}
+.nav-left .item-nav-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.nav-left .item-nav-home i{
+    font-size: 20px;
+}
+.nav-left .item-nav-home span{
+    font-size: 12px;
+}
+/* content-home */
+.content-home{
+    position: relative;
+    flex-direction: column;
+    margin: 100px;
+    z-index: -1;
+}
+.content-home .nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+.content-home .nav-list li{
+    background-color: rgb(240, 240, 240);
+    padding: 10px 18px;
+    border-radius: 15px;
+    font-size: 16px
+}
+.content-home .nav-list li:hover{
+    background-color: #ccc;
+}
+/* item-content-home */
+.item-content-home{
+    margin-top: 50px;
+}
+.item-content-home .sub-box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 330px 330px 330px;
+    gap: 20px;
+}
+/* .item-content-home .box-video .sub-box{
+    width: 300px;
+} */
+.box-video .sub-box #time{
+    position: absolute;
+    margin: -30px 230px;
+    color: #fff;
+    background-color: rgb(54, 53, 53);
+    padding: 1px 4px;
+}
+.box-video .sub-box img{
+    width: 100%;
+    border-radius: 10px;
+}
+.box-video .sub-box h3{
+    font-size: 17px;
+}
+.box-video .sub-box .title-video span{
+    display: block;
+    font-size: 14px;
+    color: rgb(93, 93, 93);
+    margin-top: 10px;
+}
+.box-video .sub-box .title-video {
+    display: flex;
+    margin-top: 20px;
+}
+.box-video .sub-box .title-video img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.box-video .text-box .admin span{
+    color: rgb(120, 119, 119);
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+.box-video .text-box .admin {
+    margin-left: 10px;
+}
+.box-video .text-box{
+    display: flex;
+    margin-top: 10px;
+}
+.box-video .text-box img{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
